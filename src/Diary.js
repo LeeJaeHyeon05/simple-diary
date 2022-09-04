@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 
-const Dairy = () => {
+const Diary = () => {
 
   const authorInput = useRef();
   const contentInput = useRef();
@@ -71,4 +71,4 @@ const Dairy = () => {
     </div>
   );
 };
-export default Dairy;
+export default Diary;
